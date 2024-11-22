@@ -10,5 +10,8 @@ https://discord.com/invite/BkwuZmvzTY
 # Picture
 ![priv rf](https://github.com/user-attachments/assets/d361cbd4-6338-423a-83d1-c769a6b7fcf1)
 
-# Discord Messages
+# Sent From Discord
 ![NVIDIA_Share_EsbMWo04qc](https://github.com/user-attachments/assets/4c8c90a3-5ad1-427c-bab3-4cac51b42a04)
+
+# Sent From Discord
+![RobloxPlayerBeta_XpOv5fkxG1](https://github.com/user-attachments/assets/22b866d4-d9a5-4699-ac23-03190d3a08c1)
